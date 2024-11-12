@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rezensionen",
+  "info": {
+    "singularName": "rezension",
+    "pluralName": "rezensionen",
+    "displayName": "Rezension",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sterne": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 0
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Original": {
+      "type": "enumeration",
+      "enum": [
+        "Rumänisch",
+        "Deutsch"
+      ],
+      "required": true
+    },
+    "TextRumaenisch": {
+      "type": "text"
+    }
+  }
+}

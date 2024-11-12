@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ueberschrift": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "kurzeUeberschrift": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true,
+      "maxLength": 70,
+      "unique": false
+    },
+    "UeberschriftRumaenisch": {
+      "type": "string"
+    },
+    "Bild": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "posts"
+    },
+    "InhaltDeutsch": {
+      "type": "richtext",
+      "required": true
+    },
+    "InhaltRumaenisch": {
+      "type": "richtext",
+      "required": true
+    },
+    "Link": {
+      "type": "uid",
+      "targetField": "kurzeUeberschrift",
+      "required": true
+    },
+    "BeschreibungDeutsch": {
+      "type": "text",
+      "required": true,
+      "maxLength": 155
+    },
+    "BeschreibungRumaenisch": {
+      "type": "text",
+      "required": true,
+      "maxLength": 155
+    }
+  }
+}
