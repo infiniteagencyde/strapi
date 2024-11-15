@@ -13199,9 +13199,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-react-editorjs@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "strapi-plugin-react-editorjs@npm:2.0.2"
+"strapi-plugin-react-editorjs@npm:2.0.1":
+  version: 2.0.1
+  resolution: "strapi-plugin-react-editorjs@npm:2.0.1"
   dependencies:
     "@editorjs/checklist": 1.3.0
     "@editorjs/code": 2.7.0
@@ -13223,7 +13223,7 @@ __metadata:
     get-file-object-from-local-path: 1.0.2
     open-graph-scraper: 4.9.2
     react-editor-js: 1.10.0
-  checksum: 2c720596a25d5d02a460211eaf158ed4ea917a2435dd02048b2714bdd1a7f51da697b66cc82dc338701b1b99b9256da554b2eeccba36af3e8cee3ac085ab59c2
+  checksum: 6e61a5251933d8b33637616c98fa6dbb62e7b32f0bcbc892061b0a30e219772f4e0f5baeb6de03f36713f5b129b928825c049dc87c2927f63539d732ca857980
   languageName: node
   linkType: hard
 
@@ -13237,7 +13237,7 @@ __metadata:
     "@strapi/strapi": 4.5.5
     better-sqlite3: ^8.0.1
     pg: 8.11.3
-    strapi-plugin-react-editorjs: ^2.0.2
+    strapi-plugin-react-editorjs: 2.0.1
   languageName: unknown
   linkType: soft
 
