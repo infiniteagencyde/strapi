@@ -63,6 +63,10 @@
       "type": "text",
       "required": true,
       "maxLength": 155
+    },
+    "Datum": {
+      "type": "date",
+      "required": true
     }
   }
 }
