@@ -14,7 +14,7 @@
     "@strapi/plugin-users-permissions": "4.5.5",
     "@strapi/provider-upload-cloudinary": "4.5.5",
     "@strapi/strapi": "4.5.5",
-    "better-sqlite3": "^8.0.1",
+    "better-sqlite3": "^11.7.0",
     "pg": "8.11.3",
     "strapi-plugin-react-editorjs": "^2.0.2",
     "stream-web": "^0.5.2"
