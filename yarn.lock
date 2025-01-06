@@ -4144,14 +4144,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "better-sqlite3@npm:8.0.1"
+"better-sqlite3@npm:^11.7.2":
+  version: 11.7.2
+  resolution: "better-sqlite3@npm:11.7.2"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
-    prebuild-install: ^7.1.0
-  checksum: 533b2cc32bd54e2a943a4f63e079f8cc8945879b7a0ebd2085b948824ea067792f6f903ab75ba75d7cafc5f8f973354cdf9a042fa6216e077925d07a8df1bead
+    prebuild-install: ^7.1.1
+  checksum: 396c72b08b26719a3d36abf1d6c870ed5a6d5c86229f5202623a95a5b9d087ea2790a03d99ca6f37cd24e374d3551f3f422a76145e8f2443acc6bde9df3b7c57
   languageName: node
   linkType: hard
 
@@ -11325,7 +11325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^7.1.0, prebuild-install@npm:^7.1.1":
+"prebuild-install@npm:^7.1.1":
   version: 7.1.2
   resolution: "prebuild-install@npm:7.1.2"
   dependencies:
@@ -13261,7 +13261,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.5.5
     "@strapi/provider-upload-cloudinary": 4.5.5
     "@strapi/strapi": 4.5.5
-    better-sqlite3: ^8.0.1
+    better-sqlite3: ^11.7.2
     pg: 8.11.3
     strapi-plugin-react-editorjs: ^2.0.2
     stream-web: ^0.5.2
